@@ -632,6 +632,14 @@ body {
     display: flex;
     align-items: center;
   }
+  
+  #contacts .contacts-footer {
+    width: 60%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   #contacts .contacts-footer .footer-social img {
     width: 90%;
@@ -746,6 +754,14 @@ body {
     height: 30%;
     padding: 0;
     display: flex;
+    align-items: center;
+  }
+  
+  #contacts .contacts-footer {
+    width: 60%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -973,6 +989,7 @@ body {
   }
 
   #contacts .contacts-footer {
+    width: 60%;
     padding: 0;
     display: flex;
     justify-content: space-between;
