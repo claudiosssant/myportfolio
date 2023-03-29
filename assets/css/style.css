@@ -746,6 +746,10 @@ body {
     width: calc(90% / 1);
   }
 
+  #projects .projects-carousel img:hover {
+    transform: none;
+  }
+
   #projects {
     width: 90%;
     display: flex;
@@ -881,6 +885,10 @@ body {
     width: calc(100% / 1);
   }
 
+  #projects .projects-carousel img:hover {
+    transform: none;
+  }
+
   #projects {
     width: 90%;
     display: flex;
@@ -1001,6 +1009,10 @@ body {
 
   #projects .projects-carousel img {
     width: calc(100% / 1);
+  }
+
+  #projects .projects-carousel img:hover {
+    transform: none;
   }
 
   #projects {
