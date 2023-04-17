@@ -719,6 +719,10 @@ body {
     width: 80%;
   }
 
+  #skills .skills-container{
+    height: 300vh;
+  }
+
   #skills .skills-cards {
     display: flex;
     flex-direction: column;
@@ -858,6 +862,10 @@ body {
     width: 80%;
   }
 
+  #skills .skills-container{
+    height: 300vh;
+  }
+
   #skills .skills-cards {
     display: flex;
     flex-direction: column;
@@ -990,6 +998,10 @@ body {
 
   #about .about-container .about-content .about-text {
     width: 70%;
+  }
+
+  #skills .skills-container{
+    height: 300vh;
   }
 
   #skills .skills-cards {
