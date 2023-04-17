@@ -813,7 +813,7 @@ body {
   }
 
   .home-container {
-    height: 90%;
+    height: 100vh;
   }
 
   .home-container .home-intro {
@@ -840,14 +840,18 @@ body {
   }
 
   #about .about-container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
 
   #about .about-container .about-content {
     text-align: center;
-    margin-top: 300px;
     width: 90%;
+  }
+
+  #about .about-container .about-content h3{
+    margin-top: 0;
   }
 
   #about .about-container .about-content .about-text {
@@ -943,7 +947,7 @@ body {
   }
 
   .home-container {
-    height: 90%;
+    height: 100vh;
   }
 
   .home-container .home-intro {
@@ -970,14 +974,18 @@ body {
   }
 
   #about .about-container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
 
   #about .about-container .about-content {
     text-align: center;
-    margin-top: 300px;
     width: 90%;
+  }
+
+  #about .about-container .about-content h3{
+    margin-top: 0;
   }
 
   #about .about-container .about-content .about-text {
