@@ -1042,16 +1042,22 @@ body {
   }
 
   #projects .projects-container {
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  #projects .projects-cards {
-    width: 90%;
+  #projects .projects-title{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 80%;
   }
 
+  #projects .projects-cards {
+    width: 100%;
+  }
   #projects .projects-carousel img {
     width: calc(100% / 1);
   }
