@@ -882,11 +882,11 @@ body {
   #skills .skills-container{
     display: flex;
     justify-content: start;
-    height: 160vh;
+    height: 150vh;
   }
 
   #skills .skills-cards {
-    height: 150vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     margin-left: 17px;
@@ -899,8 +899,14 @@ body {
     flex-direction: column;
   }
 
+  #projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   #projects .projects-container {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -908,7 +914,7 @@ body {
   }
   #projects .projects-title {
     margin-top: 200px;
-    margin-left: 25px;
+    margin-left: 45px;
   }
 
   #projects .projects-cards {
@@ -922,13 +928,6 @@ body {
 
   #projects .projects-carousel img:hover {
     transform: none;
-  }
-
-  #projects {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   #contacts .contacts-form{
