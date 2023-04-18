@@ -914,11 +914,11 @@ body {
   }
   #projects .projects-title {
     margin-top: 200px;
-    margin-left: 45px;
+    margin-left: 35px;
   }
 
   #projects .projects-cards {
-    margin-left: 60px;
+    margin-left: 43px;
     width: 100%;
   }
 
@@ -931,7 +931,7 @@ body {
   }
 
   #contacts .contacts-form{
-    margin-left: 20px;
+    margin-left: 0;
   }
 
   #contacts .contacts-footer {
@@ -945,7 +945,7 @@ body {
   }
 
   #contacts .contacts-footer .footer-social {
-    margin-left: 22px;
+    margin-left: 0;
     width: 30vw;
     display: flex;
     justify-content: space-around;
