@@ -931,6 +931,10 @@ body {
     justify-content: center;
   }
 
+  #contacts .contacts-form{
+    margin-left: 20px;
+  }
+
   #contacts .contacts-footer {
     margin-top: 20px;
     width: 100%;
@@ -942,6 +946,7 @@ body {
   }
 
   #contacts .contacts-footer .footer-social {
+    margin-left: 22px;
     width: 30vw;
     display: flex;
     justify-content: space-around;
