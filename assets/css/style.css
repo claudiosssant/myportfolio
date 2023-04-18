@@ -859,7 +859,7 @@ body {
 
   #about .about-container {
     margin-top: 0;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -906,7 +906,7 @@ body {
   }
 
   #projects .projects-container {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     display: flex;
     align-items: center;
