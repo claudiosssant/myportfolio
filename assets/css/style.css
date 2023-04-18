@@ -583,6 +583,7 @@ body {
   }
 
   #about .about-container .about-content {
+    margin-top: 0;
     text-align: center;
     margin-top: 300px;
     width: 90%;
@@ -710,6 +711,7 @@ body {
   }
 
   #about .about-container .about-content {
+    margin-top: 0;
     text-align: center;
     margin-top: 300px;
     width: 90%;
@@ -720,13 +722,26 @@ body {
     width: 80%;
   }
 
+  #skills .skills-container{
+    display: flex;
+    justify-content: start;
+    height: 240vh;
+    padding: 0;
+  }
+
+  #skills .skills-title{
+    margin-top: 0;
+  }
+
   #skills .skills-cards {
+    margin: 0;
     display: flex;
     flex-direction: column;
     gap: 0;
   }
 
   #skills .skills-cards .card {
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -814,7 +829,7 @@ body {
   }
 
   .home-container {
-    height: 90%;
+    height: 100vh;
   }
 
   .home-container .home-intro {
@@ -840,34 +855,52 @@ body {
     width: 80%;
   }
 
+  
+
   #about .about-container {
+    margin-top: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: start;
   }
 
   #about .about-container .about-content {
+    margin-top: 0;
     text-align: center;
-    margin-top: 300px;
-    width: 90%;
+    width: 100%;
+  }
+
+  #about .about-container .about-content h3{
+    margin-top: 0;
   }
 
   #about .about-container .about-content .about-text {
     width: 80%;
   }
 
-  #skills .skills-cards {
+  #skills .skills-container{
     display: flex;
-    flex-direction: column;
-    gap: 0;
+    justify-content: start;
+    height: 160vh;
+  }
+
+  #skills .skills-cards {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 17px;
+  
   }
 
   #skills .skills-cards .card {
+    height: 43%;
     display: flex;
     flex-direction: column;
-    margin: 0;
   }
 
   #projects .projects-container {
+    height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -879,7 +912,7 @@ body {
   }
 
   #projects .projects-cards {
-    margin-left: 45px;
+    margin-left: 60px;
     width: 100%;
   }
 
@@ -898,6 +931,10 @@ body {
     justify-content: center;
   }
 
+  #contacts .contacts-form{
+    margin-left: 20px;
+  }
+
   #contacts .contacts-footer {
     margin-top: 20px;
     width: 100%;
@@ -909,6 +946,7 @@ body {
   }
 
   #contacts .contacts-footer .footer-social {
+    margin-left: 22px;
     width: 30vw;
     display: flex;
     justify-content: space-around;
@@ -945,7 +983,7 @@ body {
   }
 
   .home-container {
-    height: 90%;
+    height: 100vh;
   }
 
   .home-container .home-intro {
@@ -954,6 +992,7 @@ body {
 
   .home-container .home-intro h1 {
     width: 90%;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -961,6 +1000,7 @@ body {
   }
 
   .home-container .home-intro h4 {
+    margin-bottom: 40px;
     width: 60%;
     text-align: center;
   }
@@ -972,21 +1012,32 @@ body {
   }
 
   #about .about-container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
 
   #about .about-container .about-content {
     text-align: center;
-    margin-top: 300px;
     width: 90%;
+  }
+
+  #about .about-container .about-content h3{
+    margin-top: 0;
   }
 
   #about .about-container .about-content .about-text {
     width: 70%;
   }
 
+  #skills .skills-container{
+    display: flex;
+    justify-content: start;
+    height: 240vh;
+  }
+
   #skills .skills-cards {
+    margin: 0;
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -999,16 +1050,22 @@ body {
   }
 
   #projects .projects-container {
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  #projects .projects-cards {
-    width: 90%;
+  #projects .projects-title{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 80%;
   }
 
+  #projects .projects-cards {
+    width: 100%;
+  }
   #projects .projects-carousel img {
     width: calc(100% / 1);
   }
