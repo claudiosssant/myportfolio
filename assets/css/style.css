@@ -5,7 +5,7 @@
 body {
   font-family: "Rajdhani", sans-serif;
   margin: 0;
-  background: #0d0d0d;
+  background: #f2f2f2;
   overflow-y: auto;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .nav-menu a {
-  color: #f2f2f2;
+  color: #0d0d0d;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -58,7 +58,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #0d0d0d;
+  background: #f2f2f2;
   height: 8vh;
 }
 #home {
@@ -86,7 +86,7 @@ body {
   font-size: 80px;
   font-weight: 300;
   letter-spacing: 3px;
-  color: #f2f2f2;
+  color: #0d0d0d;
   width: 100%;
   padding: 0 0;
   gap: 10px;
@@ -101,9 +101,9 @@ body {
 
 .home-container .home-intro h4 {
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 3px;
-  color: #f2f2f2;
+  color: #0d0d0d;
   margin-top: 0;
 }
 
@@ -176,9 +176,9 @@ body {
 }
 
 #about .about-container .about-content .about-text {
-  color: #f2f2f2;
+  color: #0d0d0d;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2px;
   width: 25vw;
   margin-bottom: 20%;
@@ -192,7 +192,7 @@ body {
 
 #about .about-container .about-img img {
   width: 250px;
-  opacity: calc(50%);
+  opacity: calc(80%);
 }
 
 /* Especialidades =========================================================*/
@@ -213,7 +213,7 @@ body {
 #skills .skills-container .skills-title {
   margin-top: 0;
   font-size: 2.3rem;
-  color: #f2f2f2;
+  color: #0d0d0d;
 }
 
 #skills .skills-container .skills-title img {
@@ -255,14 +255,14 @@ body {
 }
 
 #skills .skills-container .skills-cards .card h4 {
-  color: #f2f2f2;
+  color: #0d0d0d;
   letter-spacing: 2px;
   font-size: 1.2rem;
   font-weight: 300;
 }
 
 #skills .skills-container .skills-cards .card p {
-  color: #f2f2f2;
+  color: #0d0d0d;
   font-size: 0.75rem;
   letter-spacing: 1.5px;
   width: 70%;
@@ -289,7 +289,7 @@ body {
   display: flex;
   margin-top: 10px;
   font-size: 2rem;
-  color: #f2f2f2;
+  color: #0d0d0d;
   height: 20%;
   margin-bottom: 0;
 }
@@ -323,7 +323,7 @@ body {
   cursor: pointer;
   position: absolute;
   font-size: 1.2rem;
-  color: #f2f2f2;
+  color: #0d0d0d;
   text-align: center;
   line-height: 46px;
   background: #8c072b;
@@ -389,7 +389,7 @@ body {
 }
 
 #contacts .contacts-form {
-  background: #0d0d0d;
+  background: #f2f2f2;
   box-shadow: 0 8px 32px 0 rgba(14, 14, 15, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -403,7 +403,7 @@ body {
   font-size: 1.6rem;
   font-weight: 500;
   text-align: center;
-  color: #f2f2f2;
+  color: #0d0d0d;
   margin-bottom: 30px;
   margin-left: 0;
 }
@@ -425,7 +425,7 @@ body {
 
 #contacts .contacts-form .group label {
   font-size: 14px;
-  color: #f2f2f2;
+  color: #0d0d0d;
   left: 10px;
   background-color: #f2f2f2;
   transition: all 0.3s ease;
@@ -458,7 +458,7 @@ body {
   top: -10px;
   left: 10px;
   background-color: #f2f2f2;
-  color: #f2f2f2;
+  color: #0d0d0d;
   font-weight: 600;
   font-size: 14px;
 }
